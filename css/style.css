@@ -5,7 +5,8 @@
 }
 
 html {
-    background-image: url("../ginger_jump.jpeg");
+    background-image: url("../Ginger_Group.jpeg");
+    background-repeat: no-repeat;
     opacity: 1;
     background-size: cover;
 }
