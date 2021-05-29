@@ -6,13 +6,12 @@
 
 html {
     background-image: url("../ginger_jump.jpeg");
-    background-size: contain;
+    opacity: 1;
+    background-size: cover;
 }
 
 body {
-    background-image: url("../colored_ginger.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
+    opacity: 0.9;
     font-family: 'Hachi Maru Pop', cursive;
 }
 
