@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    background-image: url("../ginger_jump.jpeg");
+    background-size: contain;
+}
+
 body {
-    background-image: url("../new_ginger_close.jpeg");
+    background-image: url("../colored_ginger.gif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     font-family: 'Hachi Maru Pop', cursive;
 }
 
