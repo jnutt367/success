@@ -11,7 +11,7 @@ body {
     background-size: contain;
     opacity: 1;
     opacity: 0;
-    font-family: 'Hachi Maru Pop', cursive;
+    font-family: '', cursive;
 }
 
 .header {
