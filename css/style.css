@@ -336,8 +336,16 @@ video {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:769px) {
     li {
         font-size: 10px;
+    }
+}
+
+@media (min-width:769px) {
+    #cube {
+        position: relative;
+        left: -10em;
+        top: -5em;
     }
 }
