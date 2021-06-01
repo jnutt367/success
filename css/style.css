@@ -6,7 +6,7 @@
 }
 
 body {
-    background: yellow;
+    background: silver;
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 1;
@@ -358,5 +358,9 @@ video {
     }
     #name {
         font-size: 70px;
+    }
+    #title {
+        font-size: 70px;
+        color: black;
     }
 }
