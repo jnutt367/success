@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +6,24 @@
 }
 
 body {
-    background-image: url("../Last_Ginger.svg");
+    background-image: url("../IMG_20210318_193831.jpg");
     background-repeat: no-repeat;
+    background-size: contain;
     opacity: 1;
-    background-size: cover;
     opacity: 0;
     font-family: 'Hachi Maru Pop', cursive;
 }
 
 .header {
     height: 500px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    list-style: none;
 }
 
 h1,
