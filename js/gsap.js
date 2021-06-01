@@ -11,4 +11,4 @@ let title = gsap.timeline()
 
 .to("h1", { duration: 5, ease: "elastic", fontFamily: "serif" }, 11)
     .to("#hire", { y: -850, padding: "10", border: "1px solid grey", duration: 5, display: "grid", width: "50%" }, 3)
-    .to("#name", { duration: 5, scale: 1.2, ease: "elastic", color: "skyblue" }, 10)
+    .to("#name", { duration: 5, fontFamily: "Open Sans", scale: 1.2, ease: "elastic", color: "skyblue" }, 10)
