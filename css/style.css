@@ -6,7 +6,7 @@
 }
 
 body {
-    background: black;
+    background: yellow;
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 1;
@@ -24,6 +24,10 @@ ul {
     color: white;
     padding: 10px;
     list-style: none;
+}
+
+ul:hover {
+    cursor: pointer;
 }
 
 h1,
@@ -349,8 +353,8 @@ video {
 @media (min-width:769px) {
     #cube {
         position: relative;
-        left: -10em;
-        top: -5em;
+        left: 20em;
+        top: 5em;
     }
     #name {
         font-size: 70px;
