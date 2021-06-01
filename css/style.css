@@ -6,7 +6,7 @@
 }
 
 body {
-    background: white;
+    background: black;
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 1;
@@ -336,6 +336,10 @@ video {
     }
 }
 
+#name {
+    font-size: 40px;
+}
+
 @media (max-width:769px) {
     li {
         font-size: 10px;
@@ -347,5 +351,8 @@ video {
         position: relative;
         left: -10em;
         top: -5em;
+    }
+    #name {
+        font-size: 50px;
     }
 }
