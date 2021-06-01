@@ -353,8 +353,8 @@ video {
 @media (min-width:769px) {
     #cube {
         position: relative;
-        left: 20em;
-        top: 5em;
+        left: 10em;
+        top: -5em;
     }
     #name {
         font-size: 70px;
