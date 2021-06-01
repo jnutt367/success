@@ -10,3 +10,4 @@ let ginger = gsap.timeline()
 let title = gsap.timeline()
 
 .to("h1", { duration: 5, ease: "elastic", fontFamily: "cursive" }, 11)
+    .to("#hire", { y: -900 })
