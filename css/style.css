@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../");
+    background: white;
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 1;
