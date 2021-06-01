@@ -5,4 +5,8 @@ let ginger = gsap.timeline()
     .fromTo("body", { backgroundColor: "transparent", opacity: 0 }, { duration: 10, backgroundColor: "orange", opacity: 1 }, 0)
     .to("h2", { color: "white", repeat: -1 })
     .to("body", { duration: 6, backgroundColor: "black" }, 10)
-    .fromTo("h3", { x: -300, y: -250 }, { x: 50, y: -270, color: "orange" }, 7)
+    .fromTo("h3", { x: -300, y: -250 }, { x: 50, y: -270, color: "orange" }, 7);
+
+let title = gsap.timeline()
+
+.to("h1", { duration: 5, ease: "elastic", fontFamily: "cursive" }, 11)
