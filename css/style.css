@@ -335,3 +335,9 @@ video {
         transform: rotate3d(1, 1, 1, 360deg);
     }
 }
+
+@media (max-width:600px) {
+    li {
+        font-size: 10px;
+    }
+}
