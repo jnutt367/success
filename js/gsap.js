@@ -9,5 +9,5 @@ let ginger = gsap.timeline()
     .to("h3", { duration: 3, fontFamily: "sans serif" }, 11)
 let title = gsap.timeline()
 
-.to("h1", { duration: 5, ease: "elastic", fontFamily: "cursive" }, 11)
-    .to("#hire", { y: -900 })
+.to("h1", { duration: 5, ease: "elastic", fontFamily: "Poppins" }, 11)
+    .to("#hire", { y: -850, padding: "10", border: "1px solid grey", duration: 5, display: "grid", width: "50%" }, 3)

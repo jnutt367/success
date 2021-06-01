@@ -11,7 +11,7 @@ body {
     background-size: contain;
     opacity: 1;
     opacity: 0;
-    font-family: '', cursive;
+    font-family: 'Open Sans', cursive;
 }
 
 .header {
